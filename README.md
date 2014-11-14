@@ -1,7 +1,10 @@
-react-starter
+speech-of-life
 =============
 
-Initial setup for simple react applications
+Speech recognition enabled game of life.
+
+Make sure you load the files through a web server, because chrome
+won't let local javascript access the speech recognition api.
 
 
 Building
@@ -24,14 +27,14 @@ Build the project and watch for changes
 Running
 -------
 
-Open index.html in your browser. The router will redirect you to `#/` and includes links to the other examples.
+```bash
+npm install -g serve
+npm serve .
+```
+Open [localhost:3000](http://localhost:3000)
 
 
 Technologies
 ------------
 
 [React](http://facebook.github.io/react/)
-
-[React Router](https://github.com/rackt/react-router)
-
-
