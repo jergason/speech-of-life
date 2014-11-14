@@ -1,0 +1,32 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "react-starter =============",
+  "main": "index.js",
+  "scripts": {
+    "all": "node --harmony scripts/all.js",
+    "start": "node --harmony server/app.js",
+    "watch": "nodemon --watch server --harmony server/app.js",
+    "lr": "node --harmony scripts/live-reload.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KualiCo/react-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KualiCo/react-starter/issues"
+  },
+  "homepage": "https://github.com/KualiCo/react-starter",
+  "dependencies": {
+    "react": "^0.12.0",
+    "ticker": "^0.1.0"
+  },
+  "devDependencies": {
+    "gulp-livereload": "^2.1.1",
+    "jsx-loader": "^0.12.1",
+    "node-watch": "^0.3.4",
+    "webpack": "^1.4.13"
+  }
+}
